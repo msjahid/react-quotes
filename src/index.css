@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css2?family=Arima:wght@400&display=swap);
+
+/* base styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arima;
+}
+.navbar {
+    background-color: #F8F4F4 ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 0 1px 8px #ddd;
+}
+.navbar h1 {
+    color: #f1356d;
+}
+.navbar .links {
+    margin-left: auto;
+}
+.navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+}
+.navbar a:hover {
+    color: #f1356d;
+}
+.content {
+    margin: 35px auto;
+    padding: 10px;
+}
+.card {
+    margin-top: 20px;
+    position: relative;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    width: 100%;
+}
+
+.card-header{
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-size: 18px;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+blockquote {
+    margin: 0 0 1rem;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.blog-list {
+    width: 50%;
+}
+
+.blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: #6c757d;
+}
+
+.blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.blog-details{
+    width:800px;
+    margin:0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-footer {
+    margin-top: 20px;
+    color: #0067FF;
+    font-size: 1.5rem;
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.create {
+    width: 500px;
+    margin:0 auto;
+}
+
+.contact {
+    width: 500px;
+    margin:0 auto;
+}
+
+.create h2, h4 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.form-group {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 1rem;
+}
+
+.submit {
+    margin: 0 auto;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-danger:focus, .btn-danger.focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
